@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+main {
+    font-size: 15px;
+    width: 100%;
+}
+.main-container {
+    margin: 2px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.swdans-container {
+    background-color: hsl(31, 77%, 52%);
+    
+    color: white;
+    
+}
+.sedans, .suvs, .luxury {
+    margin: 20px;
+    padding: 0px 30px;
+    width: 35%;
+    position: relative;
+    top: 20px;
+}
+.swdans-container h2, .suvs-container h2, .luxury-container h2 {
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+.swdans-container p, .suvs-container p, .luxury-container p {
+    margin: 20px;
+    padding: 10px 30px;
+    font-family: 'Lexend', Deca;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    word-spacing: 1px;
+    line-height: 1.4em;
+}
+.button1 {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+    background:hsl(0, 0%, 95%);
+    border: 1px solid white;
+    color: hsl(31, 77%, 52%);
+    font-family: Lexend Deca;
+}
+.button1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.suvs-container {
+    background-color: hsl(184, 100%, 22%);
+}
+.button2 {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+    background:hsl(0, 0%, 95%);
+    border: 1px solid white;
+    color: hsl(184, 100%, 22%);
+    font-family: Lexend Deca;
+}
+.button2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.luxury-container {
+    background-color: hsl(179, 100%, 13%);
+    
+}
+.button3 {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+    background:hsl(0, 0%, 95%);
+    border: 1px solid white;
+    color: hsl(179, 100%, 13%);
+    font-family: Lexend Deca;
+}
+.button3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main {
+        font-size: 15px;
+        width: 100%;
+    }
+    .main-container {
+        margin: 20px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .swdans-container {
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: white;
+        
+    }
+    .sedans, .suvs, .luxury {
+        margin: 20px;
+        padding: 0px 30px;
+        width: 30%;
+        position: relative;
+        top: 20px;
+    }
+    .swdans-container h2, .suvs-container h2, .luxury-container h2 {
+        margin: 20px;
+        padding: 10px 30px;
+        font-size: 40px;
+        color: hsl(0, 0%, 95%);
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-weight: 700;
+    }
+    .swdans-container p, .suvs-container p, .luxury-container p {
+        margin: 20px;
+        padding: 0px 30px;
+        font-family: 'Lexend', Deca;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.75);
+        word-spacing: 1px;
+        line-height: 1.4em;
+    }
+    .button1 {
+        margin-left: 40px;
+        margin: 30px 30px;
+        height: 40px;
+        width: 130px;
+        border-radius: 50px;
+        background:hsl(0, 0%, 95%);
+        border: 1px solid white;
+        color: hsl(31, 77%, 52%);
+        font-family: Lexend Deca;
+    }
+    .button1:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: hsl(0, 0%, 95%);
+    }
+    .suvs-container {
+        background-color: hsl(184, 100%, 22%);
+    }
+    .button2 {
+        margin-left: 40px;
+        margin: 30px 30px;
+        height: 40px;
+        width: 130px;
+        border-radius: 50px;
+        background:hsl(0, 0%, 95%);
+        border: 1px solid white;
+        color: hsl(184, 100%, 22%);
+        font-family: Lexend Deca;
+    }
+    .button2:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+    }
+    .luxury-container {
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .button3 {
+        margin-left: 40px;
+        margin: 30px 30px;
+        height: 40px;
+        width: 130px;
+        border-radius: 50px;
+        background:hsl(0, 0%, 95%);
+        border: 1px solid white;
+        color: hsl(179, 100%, 13%);
+        font-family: Lexend Deca;
+    }
+    .button3:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: hsl(0, 0%, 95%);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-container {
+        margin: 150px;
+        padding: 30px;
+        position: relative;
+        right: -20px;
+        top: 40px;
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+    .button1 {
+        margin: 30px
+    }
+    .button3 {
+        margin: 30px;
+    }
+    .button2 {
+        margin: 30px;
+    }
+    .luxury-container {
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .swdans-container {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
